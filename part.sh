@@ -28,5 +28,5 @@ parted -s $DISK mkpart logical 901m 1000m
 parted -s $DISK set 13  raid on 
 parted -s $DISK set 14  raid on 
 
-
+#printing the parted disk
 parted -s $DISK print
